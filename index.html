@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mr. Bookstore</title>
+  <style>
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1, h2 {
+      margin: 10px 0;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 20px;
+    }
+
+    /* Book section styles */
+    .books {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .book {
+      width: 30%;
+      background-color: #fff;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      padding: 10px;
+    }
+
+    .book img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .book h3 {
+      margin-top: 10px;
+    }
+
+    .book p {
+      margin-bottom: 10px;
+    }
+
+    /* Reviews section styles */
+    .reviews {
+      border-top: 1px solid #ddd;
+      padding-top: 10px;
+    }
+
+    .review {
+      margin-bottom: 5px;
+    }
+
+    .review span {
+      font-weight: bold;
+    }
+
+    /* Cart section styles */
+    .cart {
+      text-align: right;
+      margin-top: 20px;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    /* Form styles */
+    form {
+      margin-top: 20px;
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    form input, form textarea {
+      padding: 5px;
+      border: 1px solid #ddd;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    form button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mr. Bookstore</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Welcome to Mr. Bookstore!</h2>
+    <p>We offer a wide selection of books for all ages and interests.</p>
+
+    <section class="books">
+      <article class="book">
+        <img src="images/book1.jpg" alt="Book 1">
+        <h3>The Lord of the Rings</h3>
+        <p>By J.R.R. Tolkien - $25.00</p>
+        <div class="reviews">
+          <p class="review"><span>John Doe:</span>
